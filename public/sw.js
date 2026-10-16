@@ -1,6 +1,6 @@
 // study service worker — app-shell cache so the PWA opens offline.
 // Audio and API calls always go to the network (never cached).
-const CACHE = 'study-v5';
+const CACHE = 'study-v6';
 const SHELL = [
   '/',
   '/index.html',
@@ -8,6 +8,8 @@ const SHELL = [
   '/styles.css',
   '/manifest.webmanifest',
   '/favicon.svg',
+  '/favicon.ico',
+  '/apple-touch-icon.png',
   '/icon-192.png',
   '/icon-512.png',
   '/icon-maskable-512.png',

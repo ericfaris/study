@@ -195,7 +195,7 @@ components/motion).
 | `public/fonts/lexend-variable.woff2` | Display face (self-hosted, Google Fonts Lexend, weight axis 400–800) |
 | `public/fonts/jakarta-variable.woff2` | Body face (self-hosted, Google Fonts Plus Jakarta Sans, weight axis 300–800) |
 | `public/favicon.svg` | Pencil mark, recolored violet→blue gradient; also used as the header brand-badge mask |
-| `public/icon-192.png`, `icon-512.png`, `icon-maskable-512.png` | PWA icons, regenerated via `tools/gen-icons.mjs` with the new `#6d5ef8` fill |
+| `scripts/icons/icon.svg` → `public/favicon.ico`, `apple-touch-icon.png`, `icon-192.png`, `icon-512.png`, `icon-maskable-512.png` | App icon on the house standard shared with every mooseflip app (2026-10-16): white headphones inside an amber listening-progress ring on a violet tile. `npm run icons` (= `python3 scripts/icons/build.py`) re-renders the set |
 | `public/manifest.webmanifest` | `theme_color`/`background_color` updated to `#6d5ef8`/`#f3f1fb` |
 | `public/design-system.html` | Static showcase page — every token/component rendered live from the real CSS |
 | `DESIGN.md` | This document |

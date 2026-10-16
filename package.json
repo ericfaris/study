@@ -6,7 +6,7 @@
   "bin": { "study": "server.js" },
   "scripts": {
     "start": "node server.js",
-    "icons": "node tools/gen-icons.mjs",
+    "icons": "python3 scripts/icons/build.py",
     "split-book": "node tools/split-book.mjs",
     "test": "node --test 'tests/*.test.mjs'",
     "test:browser": "node --test 'tests/browser/*.test.mjs'",
